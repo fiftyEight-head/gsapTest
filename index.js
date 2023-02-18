@@ -14,7 +14,7 @@ conjunto.className = 'conjunto';
 canvas.appendChild (conjunto);
 for (let i = 0; i < 33; i++) {
   const element = document.createElement ('img');
-  element.src = '/html/cloud.png';
+  element.src = 'cloud.png';
   element.className = `cloud`;
   element.width = `${2400 / 30}`;
   element.height = `${1316 / 30}`;
